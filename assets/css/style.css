@@ -25,7 +25,7 @@ body {
 
 .main-container {
     width: 90%;
-    height: 55%;
+    height: 60%;
     font-family: Oxanium;
     color: white;
     display: flex;
@@ -100,7 +100,7 @@ body {
     align-items: center;
 }
 
-@media(min-width: 374px) {
+@media(min-width: 378px) {
     
     .calculator-container {
         width: 2500%;
