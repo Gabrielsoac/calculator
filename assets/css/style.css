@@ -158,7 +158,7 @@ body {
     }
 }
 
-@media(min-width:378px){
+@media(min-width:375px){
     
     .calculator-container {
         width: 2500%;
@@ -208,7 +208,7 @@ body {
 }
 
 
-@media(min-width: 750px){
+@media(min-width: 768px){
 
     .main-container {
         width: 90%;
