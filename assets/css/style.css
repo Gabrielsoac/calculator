@@ -24,8 +24,8 @@ body {
 }
 
 .main-container {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     font-family: Oxanium;
     color: white;
     display: flex;
@@ -46,8 +46,8 @@ body {
 }
 
 .button-calculator {
-    width: 80px;
-    height: 50px;
+    width: 22vw;
+    height: 10vh;
     font-size: 15px;
     /*background-color: palevioletred; */
     background-color: inherit;
@@ -58,6 +58,7 @@ body {
 
 .button-calculator:hover {
     background-color: #967d2a;
+    width: 22vw;
 }
 
 .main-table {
@@ -71,7 +72,7 @@ body {
 
 .display {
     width: 100%;
-    height: 20%;
+    height: 10vh;
     border: none;
     border-radius: 5px;
     text-align: right;
@@ -93,10 +94,10 @@ body {
 
 .calculator-container {
     width: 100%;
-    height: 400px;
+    height: 550px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction:column;
+    justify-content: space-between;
     align-items: center;
 }
 

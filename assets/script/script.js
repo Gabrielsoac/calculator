@@ -23,6 +23,8 @@ function createCalculator(){
                 if(element.classList.contains("button-equals")){
                     this.calculate(element.value);
                 }
+
+                document.getElementsByClassName('.display').focus();
             })
         }, 
 
